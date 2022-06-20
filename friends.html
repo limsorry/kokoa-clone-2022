@@ -5,32 +5,108 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Friends - Kokoa Clone</title>
+    <title>Family Memeber</title>
   </head>
   <body>
     <div class="status-bar">
       <div class="status-bar__column">
-        <span>No Service</span>
+        <span>WIT STUDIO</span>
         <i class="fa-solid fa-wifi"></i>
       </div>
       <div class="status-bar__column">
-        <span>18:43</span>
+        <span>12:12</span>
       </div>
       <div class="status-bar__column">
-        <span>110%</span>
+        <span>99%</span>
         <i class="fa-solid fa-battery-full fa-lg"></i>
         <i class="fa-solid fa-bolt"></i>
       </div>
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">Friends</h1>
+      <h1 class="screen-header__title">SPYxFAMILY</h1>
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-lg"></i></span>
-        <span><i class="fa-solid fa-music fa-lg"></i></span>
+        <span><i class="fa-solid fa-pencil fa-lg"></i></span>
         <span><i class="fa-solid fa-gear fa-lg"></i></span>
       </div>
     </header>
+
+    <a id="friends-dispaly-link" href="">
+      <i class="fa-solid fa-circle-info"></i>
+      Forger Family Mission Notification
+      <i class="fa-solid fa-chevron-right fa-xs"></i>
+    </a>
+
+    <main class="friends-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="https://w.namu.la/s/bd0206107300a5540f03f62c9b45ca0ecfe4976490f8c5bb45150e1ed5d99563832a7bb0d6336573337233c60032344daa0f9ff527561c8266409cddacbb352ef2db1aab4fb74b1b6a383fc4cac2273e4017dec7cad3b7cc795d286f1b04ea5d"
+            class="user-component__avatar user-componenet__avatar--xl"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">Anya Forger</h4>
+            <!-- <h6 class="user-component__subtitle">this text whatever</h6> -->
+          </div>
+        </div>
+        <div class="user-component__column"></div>
+      </div>
+      <div class="friends-screen__channel">
+        <div class="friends-screen__channel-header">
+          <span>Family Members 3</span>
+          <i class="fa-solid fa-chevron-up fa-xs"></i>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="https://w.namu.la/s/2bea43218dae4a327d0a81dcc3b4b3f8cb50cacc5351716d6baa98fe6614677a536ef5cc2ca11b92920df0ba257c4b57bb10a9b5ed89843c12897ad2cd7d2e71b7c8b14131514a3f67d0d9a0a5b722a0672c25c73e15e8d2630ce3f6d6cc3a07"
+              class="user-component__avatar user-componenet__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                Loid Forger
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div><i class="fa-solid fa-gun"></i></div>
+          </div>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="https://w.namu.la/s/6eff086a6b7f58b92caaec32708681a7d690761720962bceeaa980d6dbe8c3f32b8db8003a719ff0b4eaf54955dfd1d9aaca9eada106d93b98f96c9f570c78fda1c7f54982ca529e07247ed7161d04044a38ce452d87903b1717d88467840fb8"
+              class="user-component__avatar user-componenet__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                Yor Forger
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div><i class="fa-solid fa-utensils"></i></div>
+          </div>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="https://w.namu.la/s/e39023be180a64c3740c85d12fa22b38dfdaa974ae63314670db18b007480598bec71adc7bde6bfdc6011e828d616e3924849ed5a31507fedf4ccc4c124911d5638090e4c9af849b3fdbf896b2828bfb2d42b314ec924efed8ef1efd3de63386"
+              class="user-component__avatar user-componenet__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                Bond Forger
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div><i class="fa-solid fa-bone"></i></div>
+          </div>
+        </div>
+      </div>
+    </main>
 
     <nav class="nav">
       <ul class="nav__list">
@@ -40,16 +116,18 @@
           ></a>
         </li>
         <li class="nav__btn">
-          <a class="nav__link" href="#">
-            <span class="nav__notification">1</span>
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification badge">14</span>
             <i class="far fa-comment fa-2x"></i>
           </a>
         </li>
         <li class="nav__btn">
-          <a class="nav__link" href="#"><i class="fas fa-search fa-2x"></i></a>
+          <a class="nav__link" href="find.html"
+            ><i class="fas fa-search fa-2x"></i
+          ></a>
         </li>
         <li class="nav__btn">
-          <a class="nav__link" href="#">
+          <a class="nav__link" href="more.html">
             <div class="nav__dot"></div>
             <i class="fas fa-ellipsis-h fa-2x"></i
           ></a>
